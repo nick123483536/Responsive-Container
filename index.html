@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Card Design</title>
+    <link rel="stylesheet" href="dynamic.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">YAY! It’s BOGO</h2>
+      <div class="option-container" id="option1">
+        <input type="radio" name="unit" id="unit1" class="radio" onchange="selectOption('option1')">
+        <label for="unit1">
+          <div class="content">
+            <span class="radio-label">1 Unit</span>
+            <span class="discount">10% Off</span>
+            
+            <div class="details">
+              <div class="price">
+                <span>$10.00 USD</span>
+                <span class="original-price">$24.00 USD</span>
+              </div>
+            </div>
+            <span class="description">Standard Price</span>
+            <div class="additional-options">
+              <div>
+                <label>Size:</label>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </div>
+              <div>
+                <label>Colour:</label>
+                <select>
+                  <option>Black</option>
+                  <option>White</option>
+                  <option>Blue</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div class="option-container" id="option2">
+        <input type="radio" name="unit" id="unit2" class="radio" onchange="selectOption('option2')">
+        <label for="unit2">
+          <div class="content">
+            <span class="radio-label">2 Unit</span>
+            <span class="discount">20% Off</span>
+            <div class="price">
+              <span>$18.00 USD</span>
+              <span class="original-price">$24.00 USD</span>
+            </div>
+            <div class="additional-options">
+              <div>
+                <label>Size:</label>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </div>
+              <div>
+                <label>Colour:</label>
+                <select>
+                  <option>Black</option>
+                  <option>White</option>
+                  <option>Blue</option>
+                </select>
+              </div>
+            </div>
+            
+          </div>
+        </label>
+      </div>
+      <div class="option-container" id="option3">
+        <input type="radio" name="unit" id="unit3" class="radio" onchange="selectOption('option3')">
+        <label for="unit3">
+          <div class="content">
+            <span class="radio-label">3 Unit</span>
+            <span class="discount">30% Off</span>
+            <div class="price">
+              <span>$24.00 USD</span>
+              <span class="original-price">$24.00 USD</span>
+            </div>
+              <div class="additional-options">
+                <div>
+                  <label>Size:</label>
+                  <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                  </select>
+                </div>
+                <div>
+                  <label>Colour:</label>
+                  <select>
+                    <option>Black</option>
+                    <option>White</option>
+                    <option>Blue</option>
+                  </select>
+                </div>
+              </div>  
+            </div>
+          </div>
+          <div class="footer">
+  <div class="details-row">
+    <span class="free-delivery">Free Delivery</span>
+    <span class="total">Total: <strong id="total">$0.00 USD</strong></span>
+  </div>
+  <div class="button-row">
+    <button class="add-to-cart">+ Add to Cart</button>
+  </div>
+</div>
+</label>
+
+      </div>
+    </div>>
+    </div>
+    <script src="dynamic.js"></script>
+  </body>
+</html>
